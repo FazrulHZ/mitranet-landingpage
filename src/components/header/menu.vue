@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar color="white" light dense height="60">
+  <v-app-bar color="white" height="60" elevate-on-scroll app>
     <v-img
       src="@/assets/gambar/logoheader.png"
       max-height="180"
@@ -7,21 +7,23 @@
       class="my-auto"
     ></v-img>
     <v-spacer></v-spacer>
-    <v-btn text to="/home">
-      HOME
-    </v-btn>
+    <div class="hidden-sm-and-down">
+      <v-btn text to="/home">
+        HOME
+      </v-btn>
 
-    <v-btn text to="/about">
-      ABOUT
-    </v-btn>
+      <v-btn text to="/about">
+        ABOUT
+      </v-btn>
 
-    <v-btn text to="/location">
-      LOCATION
-    </v-btn>
+      <v-btn text to="/product">
+        PRODUCT
+      </v-btn>
 
-    <v-btn text to="contact">
-      CONTACT
-    </v-btn>
+      <v-btn text to="contact">
+        CONTACT
+      </v-btn>
+    </div>
   </v-app-bar>
 </template>
 

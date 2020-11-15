@@ -1,0 +1,75 @@
+{
+  "teams": [
+    {
+      "id": "1",
+      "nama": "Alief Hamzah",
+      "posisi": "Director",
+      "keahlian": "-",
+      "email": "-",
+      "facebook": "-",
+      "instagram": "-",
+      "avatar": "alif.png"
+    },
+    {
+      "id": "2",
+      "nama": "Ardin Hamzah",
+      "posisi": "Comissioner",
+      "divisi": "Aplikasi",
+      "keahlian": "Pemrograman",
+      "email": "ardin260@gmail.com",
+      "facebook": "https://www.facebook.com/ardin.hamzah",
+      "instagram": "https://www.instagram.com/fazrulhz/",
+      "avatar": "ardin.png"
+    },
+    {
+      "id": "3",
+      "nama": "Rizqa Ramadhanti",
+      "posisi": "Admin & Consultant IT",
+      "keahlian": "Admin & Consultant IT",
+      "email": "-",
+      "facebook": "-",
+      "instagram": "-",
+      "avatar": "cika.png"
+    },
+    {
+      "id": "4",
+      "nama": "Noldy Pranaya",
+      "posisi": "Network Engineers",
+      "keahlian": "Network Engineers",
+      "email": "-",
+      "facebook": "-",
+      "instagram": "-",
+      "avatar": "ody.png"
+    },
+    {
+      "id": "5",
+      "nama": "Mohammad Aqil",
+      "posisi": "Network Technicians",
+      "keahlian": "Network Technicians",
+      "email": "-",
+      "facebook": "-",
+      "instagram": "-",
+      "avatar": "akil.png"
+    },
+    {
+      "id": "6",
+      "nama": "Ilham Rauf",
+      "posisi": "Network Technicians",
+      "keahlian": "Network Technicians",
+      "email": "-",
+      "facebook": "-",
+      "instagram": "-",
+      "avatar": "kilu.png"
+    },
+    {
+      "id": "7",
+      "nama": "Satrio Bagas",
+      "posisi": "Network Technicians",
+      "keahlian": "Network Technicians",
+      "email": "-",
+      "facebook": "-",
+      "instagram": "-",
+      "avatar": "rio.png"
+    }
+  ]
+}

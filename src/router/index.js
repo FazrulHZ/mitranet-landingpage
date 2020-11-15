@@ -5,6 +5,8 @@ import Home from '../views/Home'
 import About from '../views/About'
 import Locatioan from '../views/Location'
 import Contact from '../views/Contact'
+import Profile from '../views/Profile'
+import Product from '../views/Product'
 
 Vue.use(VueRouter)
 
@@ -29,6 +31,14 @@ const routes = [
         {
           path: '/contact',
           component: Contact,
+        },
+        {
+          path: '/product',
+          component: Product,
+        },
+        {
+          path: '/profile/:id',
+          component: Profile,
         }
       ]
   }
