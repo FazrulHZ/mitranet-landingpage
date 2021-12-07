@@ -98,7 +98,7 @@ export default {
 
   methods: {
     async getData() {
-      const res = await fetch('http://localhost:8080/api/teams.json')
+      const res = await fetch('https://mitranusa.id/api/teams.json')
       const data = await res.json()
       this.teams = data.teams
       this.filterArray()

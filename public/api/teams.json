@@ -24,93 +24,6 @@
     },
     {
       "id": "3",
-      "nama": "Rizqa Ramadhanti",
-      "nama_lengkap": "Rizqa Ramadhanti Saalam",
-      "posisi": "Admin & Consultant IT",
-      "divisi": "Admin & Consultant IT",
-      "keahlian": "Hospitality Industry",
-      "email": "rizqaramadhati@gmail.com",
-      "pendidikan": [
-        {
-          "tingkat": "PERGURUAN TINGGI",
-          "nama": "Universitas Negeri Gorontalo",
-          "jurusan": "Tourism Department, Hotel Major",
-          "thn_lulus": "2019"
-        },
-        {
-          "tingkat": "SMA / SMK",
-          "nama": "SMK Negeri 1 Kota Gorontalo",
-          "jurusan": "Business Travel Major speciality in Tour Guiding, Ticketing, Tour Planning",
-          "thn_lulus": "2015"
-        }
-      ],
-      "skill": {
-        "bahasa": [
-          {
-            "nama": "Indonesia",
-            "kemampuan": "Lancar Dalam Membaca dan Menulis"
-          },
-          {
-            "nama": "Inggris",
-            "kemampuan": "Lancar Dalam Membaca dan Menulis"
-          },
-          {
-            "nama": "Jepang",
-            "kemampuan": "Cukup Dalam Membaca dan Menulis"
-          }
-        ],
-        "lainnya": [
-          {
-            "nama_skill": "Operating Computer (Making Data and Report through Ms.Word & Excel)"
-          },
-          {
-            "nama_skill": "Have a good social skills and public speaking"
-          },
-          {
-            "nama_skill": "Have some abilities in Leadership and really good in teamworking"
-          }
-        ]
-      },
-      "riwayat_kerja": [
-        {
-          "thn_kerja": "2015 – 2016",
-          "nama_kerja": "Freelancer Tour Guide"
-        },
-        {
-          "thn_kerja": "2016 – May 2017",
-          "nama_kerja": "Tour Guide and Tour Operatior in Oasis Tour and Travel"
-        },
-        {
-          "thn_kerja": "June – December 2017",
-          "nama_kerja": "An Internship at Novotel Manado Golf Resort and Convention Center as Front Desk Agent"
-        },
-        {
-          "thn_kerja": "July – October 2019",
-          "nama_kerja": "Sales and Marketing Admin at TC Damhil UNG, PT. Putra Padjajaran Mandiri"
-        },
-        {
-          "thn_kerja": "October 2019 -January 2020",
-          "nama_kerja": "Travel Operator at PPM Ticket Services, PT. Putra Padjajaran Mandiri"
-        },
-        {
-          "thn_kerja": "January 2020 - March 2020",
-          "nama_kerja": "Administration and General PT. Putra Padjajaran Mandiri"
-        },
-        {
-          "thn_kerja": "April 20th 2020 - July 23rd 2020",
-          "nama_kerja": "Volunteer in Covid-19 Task Force in TC Damhil UNG As A General Admin"
-        },
-        {
-          "thn_kerja": "August 2020",
-          "nama_kerja": "UNG Training Centre As a General Admin"
-        }
-      ],
-      "facebook": "-",
-      "instagram": "https://www.instagram.com/cikasaalam/",
-      "avatar": "cika.png"
-    },
-    {
-      "id": "4",
       "nama": "Noldy Pranaya",
       "posisi": "Network Engineers",
       "divisi": "Networking",
@@ -121,7 +34,7 @@
       "avatar": "ody.png"
     },
     {
-      "id": "5",
+      "id": "4",
       "nama": "Mohammad Aqil",
       "posisi": "Network Technicians",
       "divisi": "Networking",
@@ -132,7 +45,7 @@
       "avatar": "akil.png"
     },
     {
-      "id": "6",
+      "id": "5",
       "nama": "Ilham Rauf",
       "posisi": "Network Technicians",
       "divisi": "Networking",
@@ -141,17 +54,6 @@
       "facebook": "-",
       "instagram": "-",
       "avatar": "kilu.png"
-    },
-    {
-      "id": "7",
-      "nama": "Satrio Bagas",
-      "posisi": "Network Technicians",
-      "divisi": "Networking",
-      "keahlian": "Network Technicians",
-      "email": "-",
-      "facebook": "-",
-      "instagram": "-",
-      "avatar": "rio.png"
     }
   ]
 }
