@@ -67,7 +67,7 @@
               <SkillCard />
             </div>
             <div>
-              <RiwayatCard />
+              <!-- <RiwayatCard /> -->
             </div>
           </v-col>
         </v-row>
@@ -77,12 +77,13 @@
 </template>
 
 <script>
+import getRef from "@/helper/getRef.js";
 import SkillCard from '@/components/skill'
-import RiwayatCard from '@/components/riwayat'
+// import RiwayatCard from '@/components/riwayat'
 export default {
   components: {
     SkillCard,
-    RiwayatCard
+    // RiwayatCard
   },
 
   mounted() {
@@ -98,9 +99,8 @@ export default {
 
   methods: {
     async getData() {
-      const res = await fetch('https://mitranusa.id/api/teams.json')
-      const data = await res.json()
-      this.teams = data.teams
+      const res = await getRef.Teams();
+      this.teams = res
       this.filterArray()
     },
 
