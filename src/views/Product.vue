@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-container class="pa-6" fluid style="background-color: #F5F5F5;">
+    <v-container class="pa-6" fluid style="background-color: #f5f5f5">
       <h1 class="primary--text">OUR PRODUCT</h1>
       <div class="pa-12">
         <v-row>
@@ -106,12 +106,11 @@
                 <v-row>
                   <v-col cols="6" class="my-auto">
                     <ul>
-                      <li>Service SMS Gateaway</li>
+                      <li>Server</li>
                     </ul>
                   </v-col>
                   <v-col cols="6">
                     <ul>
-                      <li>Server</li>
                       <li>Hosting</li>
                     </ul>
                   </v-col>
