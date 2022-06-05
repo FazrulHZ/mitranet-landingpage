@@ -46,17 +46,17 @@ export default {
                 instagram: "-",
                 avatar: "akil.png"
             },
-            {
-                id: "5",
-                nama: "Ilham Rauf",
-                posisi: "Network Technicians",
-                divisi: "Networking",
-                keahlian: "Network Technicians",
-                email: "-",
-                facebook: "-",
-                instagram: "-",
-                avatar: "kilu.png"
-            }
+            // {
+            //     id: "5",
+            //     nama: "Ilham Rauf",
+            //     posisi: "Network Technicians",
+            //     divisi: "Networking",
+            //     keahlian: "Network Technicians",
+            //     email: "-",
+            //     facebook: "-",
+            //     instagram: "-",
+            //     avatar: "kilu.png"
+            // }
         ]
         return teams
     },

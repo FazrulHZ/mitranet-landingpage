@@ -2,9 +2,10 @@
   <v-app-bar color="white" height="60" elevate-on-scroll app>
     <v-img
       src="@/assets/gambar/logoheader.png"
-      max-height="180"
-      max-width="180"
+      max-height="120"
+      max-width="120"
       class="my-auto"
+      @click="home()"
     ></v-img>
     <v-spacer></v-spacer>
     <div class="hidden-sm-and-down">
@@ -30,5 +31,11 @@
 <script>
 export default {
   name: "Menu",
+
+  methods:{
+    home(){
+      this.$router.push("/home").catch(() => {});
+    }
+  }
 };
 </script>

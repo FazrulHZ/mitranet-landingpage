@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-container class="pa-6" fluid style="background-color: #f5f5f5">
+    <v-container class="pa-6" fluid style="background-color: #f5f5f5" v-if="$route.path == '/product'">
       <h1 class="primary--text">OUR PRODUCT</h1>
       <div class="pa-12">
         <v-row>
@@ -121,5 +121,50 @@
         </v-row>
       </div>
     </v-container>
+
+    <div v-else>
+      <v-row align="center" justify="center">
+        <v-col cols="12" md="2" v-for="item in product" :key="item.id">
+          <v-card class="mx-auto my-2" min-height="210" min-width="50" rounded="xl">
+            <v-card-text class="py-7">
+              <v-icon class="mb-5" size="75" color="primary">
+                {{ item.icon }}
+              </v-icon>
+              <v-divider class="my-5"></v-divider>
+              <h3 class="font-weight-black">{{ item.nama }}</h3>
+            </v-card-text>
+          </v-card>
+        </v-col>
+      </v-row>
+    </div>
   </div>
 </template>
+
+<script>
+export default {
+  data: () => ({
+    product: [
+      {
+        id: 1,
+        nama: 'Whatsapp-API',
+        icon: 'mdi-whatsapp',
+      },
+      {
+        id: 2,
+        nama: 'Network Management',
+        icon: 'mdi-lan-connect',
+      },
+      {
+        id: 3,
+        nama: 'APP Develop',
+        icon: 'mdi-xml',
+      },
+      {
+        id: 4,
+        nama: 'Service',
+        icon: 'mdi-cogs',
+      },
+    ],
+  }),
+}
+</script>

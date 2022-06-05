@@ -1,13 +1,11 @@
 <template>
-  <router-view />
+  <v-app>
+    <router-view />
+  </v-app>
 </template>
 
 <script>
 export default {
-  created() {
-    if (this.$route.path == "/" || this.$route.path == "") {
-      this.$router.push("/home");
-    }
-  },
-};
+  
+}
 </script>

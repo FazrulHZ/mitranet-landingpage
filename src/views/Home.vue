@@ -1,60 +1,42 @@
 <template>
   <div>
     <div>
-      <Baner />
+      <CBaner />
     </div>
-    <div class="pa-10" fluid style="background-color: #f5f5f5">
+
+    <div class="pa-10">
       <div class="text-center" style="margin-top: 65px; margin-bottom: 65px">
         <h1 class="primary--text">INTRODUCTION</h1>
         <v-divider class="mb-3"></v-divider>
-        <p>
-          PT. MitraNet Data Nusantara adalah salah satu perusahaan IT Enterprise yang ada di Provinsi Gorontalo. Perusahaan ini bergerak di bidang Teknologi Informasi yang fokus di bidang Enterprise System IT yaitu Web Design, Web Programming,
-          Analisis Sistem (System Analize), Computer Network dan Design Graphic.
-        </p>
-      </div>
-    </div>
-    <div class="pa-10">
-      <div style="margin-top: 65px; margin-bottom: 65px">
-        <h1 class="primary--text text-center">ABOUT US</h1>
-        <div class="mt-10">
-          <v-row>
-            <v-col>
-              <v-img src="@/assets/gambar/svg/aboutus.svg" max-width="500" max-height="500" class="mx-auto"></v-img>
-            </v-col>
-            <v-col>
-              <h2>Our Mission</h2>
-              <p class="mt-3">Misi kami adalah menciptakan dunia bisnis yang penuh kemakmuran, makna, dan koneksi untuk semua. Memberikan hasil yang terukur kepada klien, karyawan, dan vendor.</p>
-              <ul class="mt-5">
-                <li>Mencrerdaskan Kehidupan Bangsa</li>
-                <li>Menjadi Pelangi Dimata Dunia</li>
-                <li>Bekerja Untuk Mencapai Perdamaian</li>
-              </ul>
-            </v-col>
-          </v-row>
+        <div>
+          <CIntro />
         </div>
       </div>
     </div>
+
     <div class="pa-10" style="background-color: #f5f5f5">
       <div style="margin-top: 65px; margin-bottom: 65px">
-        <h1 class="primary--text text-center">OUR TEAM</h1>
-        <div class="mt-10">
-          <v-row>
-            <v-col cols="12" md="4" v-for="team in teams" :key="team.index" class="mb-10">
-              <v-card class="mx-auto text-center" max-width="300" elevation="24">
-                <v-img mx-height="250" :src="'img/team/' + team.avatar"></v-img>
+        <h1 class="primary--text text-center mb-10">ABOUT US</h1>
+        <div>
+          <CAbout />
+        </div>
+      </div>
+    </div>
 
-                <v-card-text>
-                  <h1>{{ team.nama }}</h1>
-                  <v-divider class="mt-3 mb-2"></v-divider>
-                  <h3 class="primary--text">{{ team.posisi }}</h3>
-                </v-card-text>
+    <div class="pa-10">
+      <div class="text-center" style="margin-top: 65px; margin-bottom: 65px">
+        <h1 class="primary--text text-center mb-10">OUR PRODUCT</h1>
+        <div>
+          <CProduct />
+        </div>
+      </div>
+    </div>
 
-                <v-card-actions class="pb-5">
-                  <v-btn block depressed color="success" @click="profil(team.id)"> Profile </v-btn>
-                </v-card-actions>
-              </v-card>
-            </v-col>
-          </v-row>
+    <div class="pa-10" style="background-color: #f5f5f5">
+      <div style="margin-top: 65px; margin-bottom: 65px">
+        <h1 class="primary--text text-center mb-10">OUR TEAM</h1>
+        <div>
+          <CTeam />
         </div>
       </div>
     </div>
@@ -62,31 +44,25 @@
 </template>
 
 <script>
-import getRef from '@/helper/getRef.js'
+import CBaner from '@/layout/Baner'
+import CIntro from '@/views/Intro'
+import CAbout from '@/views/About'
+import CTeam from '@/views/Team'
+import CProduct from '@/views/Product'
 
-import Baner from '@/components/header/baner'
 export default {
   components: {
-    Baner,
+    CBaner,
+    CIntro,
+    CAbout,
+    CTeam,
+    CProduct
   },
 
-  mounted() {
-    this.getData()
-  },
+  mounted() {},
 
-  data: () => ({
-    teams: [],
-  }),
+  data: () => ({}),
 
-  methods: {
-    async getData() {
-      const res = await getRef.Teams()
-      this.teams = res
-    },
-
-    profil(id) {
-      this.$router.push('/profile/' + id)
-    },
-  },
+  methods: {},
 }
 </script>
