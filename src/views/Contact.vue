@@ -12,7 +12,7 @@
       <v-col cols="12" md="8">
         <v-card>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d298.68035850047306!2d123.04447337811052!3d0.5457079874673217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1683298198333!5m2!1sen!2sid"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d438.0147126041263!2d123.04438786230887!3d0.5458063744832261!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x287d9984c9eec113%3A0x9db6c26cf3b9c973!2sPT%20Mitranet%20Data%20Nusantara!5e0!3m2!1sid!2sid!4v1683614619959!5m2!1sid!2sid"
             width="100%"
             height="450"
             style="border: 0"
