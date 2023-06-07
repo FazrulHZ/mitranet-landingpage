@@ -52,7 +52,7 @@
               <v-icon>mdi-card-account-phone-outline</v-icon>
             </div>
             <div class="my-auto">
-              <span>+62 857-1031-5228</span>
+              <span>+62 857-5778-8364</span>
             </div>
           </v-row>
           <v-divider></v-divider>
@@ -61,7 +61,7 @@
               <v-icon>mdi-whatsapp</v-icon>
             </div>
             <div class="my-auto">
-              <span>+62 857-1031-5228</span>
+              <span>+62 857-5778-8364</span>
             </div>
           </v-row>
           <v-divider></v-divider>
