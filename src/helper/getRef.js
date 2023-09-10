@@ -60,9 +60,9 @@ export default {
             {
                 id: "6",
                 nama: "Moh. Kadhapy",
-                posisi: "Network Engineers",
-                divisi: "Networking",
-                keahlian: "Network Engineers",
+                posisi: "Pelayanan Customer",
+                divisi: "Pelayanan",
+                keahlian: "Public Speaking",
                 email: "-",
                 facebook: "-",
                 instagram: "-",
