@@ -5,7 +5,7 @@ export default {
         const teams = [{
                 id: "1",
                 nama: "Alief Hamzah",
-                posisi: "Director",
+                posisi: "Direktur",
                 divisi: "-",
                 keahlian: "Composer",
                 email: "aliefhamzah02@gmail.com",
@@ -15,8 +15,8 @@ export default {
             },
             {
                 id: "2",
-                nama: "Ardin Hamzah",
-                posisi: "Comissioner",
+                nama: "Fazrul Hamzah",
+                posisi: "Wakil Direktur",
                 divisi: "Aplikasi",
                 keahlian: "Pemrograman",
                 email: "ardin260@gmail.com",
@@ -26,6 +26,17 @@ export default {
             },
             {
                 id: "3",
+                nama: "Lutvia Padja",
+                posisi: "Administrasi",
+                divisi: "-",
+                keahlian: "MS. OFFICE",
+                email: "-",
+                facebook: "-",
+                instagram: "-",
+                avatar: "ana.png"
+            },
+            {
+                id: "4",
                 nama: "Noldy Pranaya",
                 posisi: "Network Engineers",
                 divisi: "Networking",
@@ -36,27 +47,27 @@ export default {
                 avatar: "ody.png"
             },
             {
-                id: "4",
-                nama: "Mohammad Aqil",
-                posisi: "Network Technicians",
+                id: "5",
+                nama: "Krisdewanto",
+                posisi: "Network Engineers",
                 divisi: "Networking",
-                keahlian: "Network Technicians",
+                keahlian: "Network Engineers",
                 email: "-",
                 facebook: "-",
                 instagram: "-",
-                avatar: "akil.png"
+                avatar: "kris.png"
             },
-            // {
-            //     id: "5",
-            //     nama: "Ilham Rauf",
-            //     posisi: "Network Technicians",
-            //     divisi: "Networking",
-            //     keahlian: "Network Technicians",
-            //     email: "-",
-            //     facebook: "-",
-            //     instagram: "-",
-            //     avatar: "kilu.png"
-            // }
+            {
+                id: "6",
+                nama: "Moh. Kadhapy",
+                posisi: "Network Engineers",
+                divisi: "Networking",
+                keahlian: "Network Engineers",
+                email: "-",
+                facebook: "-",
+                instagram: "-",
+                avatar: "david.png"
+            }
         ]
         return teams
     },
