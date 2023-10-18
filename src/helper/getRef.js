@@ -35,17 +35,17 @@ export default {
                 instagram: "-",
                 avatar: "ana.png"
             },
-            {
-                id: "4",
-                nama: "Noldy Pranaya",
-                posisi: "Network Engineers",
-                divisi: "Networking",
-                keahlian: "Network Engineers",
-                email: "-",
-                facebook: "-",
-                instagram: "-",
-                avatar: "ody.png"
-            },
+            // {
+            //     id: "4",
+            //     nama: "Noldy Pranaya",
+            //     posisi: "Network Engineers",
+            //     divisi: "Networking",
+            //     keahlian: "Network Engineers",
+            //     email: "-",
+            //     facebook: "-",
+            //     instagram: "-",
+            //     avatar: "ody.png"
+            // },
             {
                 id: "5",
                 nama: "Krisdewanto",
