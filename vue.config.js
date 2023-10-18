@@ -1,5 +1,4 @@
 module.exports = {
-  publicPath: "/app/web" ,
   "transpileDependencies": [
     "vuetify"
   ],
