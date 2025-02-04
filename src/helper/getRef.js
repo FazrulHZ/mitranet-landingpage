@@ -14,17 +14,6 @@ export default {
                 avatar: "alif.png"
             },
             {
-                id: "2",
-                nama: "Fazrul Hamzah",
-                posisi: "Wakil Direktur",
-                divisi: "Aplikasi",
-                keahlian: "Pemrograman",
-                email: "ardin260@gmail.com",
-                facebook: "https://www.facebook.com/ardin.hamzah",
-                instagram: "https://www.instagram.com/fazrulhz/",
-                avatar: "ardin.png"
-            },
-            {
                 id: "3",
                 nama: "Lutvia Padja",
                 posisi: "Administrasi",
@@ -34,6 +23,17 @@ export default {
                 facebook: "-",
                 instagram: "-",
                 avatar: "ana.png"
+            },
+            {
+                id: "4",
+                nama: "Karina Saraswaty Poliyama",
+                posisi: "Administrasi",
+                divisi: "-",
+                keahlian: "MS. OFFICE",
+                email: "-",
+                facebook: "-",
+                instagram: "-",
+                avatar: "karina.png"
             },
             // {
             //     id: "4",
@@ -56,6 +56,17 @@ export default {
                 facebook: "-",
                 instagram: "-",
                 avatar: "kris.png"
+            },
+            {
+                id: "7",
+                nama: "Mohamad Aqil Yahudala",
+                posisi: "Network Technician",
+                divisi: "Networking",
+                keahlian: "Network Technician",
+                email: "-",
+                facebook: "-",
+                instagram: "-",
+                avatar: "akil.png"
             },
             {
                 id: "6",

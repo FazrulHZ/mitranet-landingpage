@@ -16,7 +16,6 @@
             width="100%"
             height="450"
             style="border: 0"
-            allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
@@ -26,7 +25,7 @@
       <v-col cols="12" md="4">
         <v-alert border="top" colored-border color="primary" elevation="1" class="pa-10 mx-auto">
           <v-row class="pa-5">
-            <span>Jl Jambura RT 02 RW II, Kel Molosipat W Kec Kota Barat Kota Gorontalo</span>
+            <span>Jl Belimbing, Kel. Libuo, Kec. Dungingi, Kota Gorontalo, Gorontalo</span>
           </v-row>
           <v-divider></v-divider>
           <v-row class="pa-5">

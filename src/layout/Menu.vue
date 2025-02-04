@@ -1,8 +1,12 @@
 <template>
-  <v-app-bar color="white" height="60" elevate-on-scroll app>
-    <v-img src="@/assets/gambar/logoheader.png" max-height="120" max-width="120" class="my-auto" @click="home()"></v-img>
+  <v-app-bar color="white" elevate-on-scroll app>
+    <div class="pa-3"> 
+      <v-img src="@/assets/gambar/logopanjang.png" max-width="200" @click="home()"></v-img>
+    </div>
+
     <v-spacer></v-spacer>
-    <div class="hidden-sm-and-down">
+    
+    <div class="my-auto hidden-sm-and-down">
       <v-btn text to="/home"> HOME </v-btn>
 
       <v-btn text to="/about"> ABOUT </v-btn>
